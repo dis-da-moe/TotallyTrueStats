@@ -3,14 +3,15 @@
 
 <img src="misc/finished.gif" height="400px">
 
-This is a silly project of a browser-hosted machine learning model that generates random, technically true statistics. Uses TensorflowJS and Typescript in an Express/NodeJS server. You can clone the repo and run it yourself, or visit my site to view it.
+This is a silly project of a browser-hosted machine learning model that generates random, technically true statistics. Uses TensorflowJS and Typescript in an Express/NodeJS server. You can clone the repo and run it yourself, or visit [my site](https://disdamoe.me/Stats) to view it.
 
 This write-up runs through the entire process and thinking that I went through over the two weeks of developing Totally True Stats. While doing this I didn't find that many TensorflowJS projects that I could ~~steal code~~ take inspiration from, so I hope this can help someone.
 
 The code for this project is available in three directories:
-Word Collection
-Model Testing
-Site Deployment
+- Word Collection
+- Model Testing
+- Site Deployment
+
 All repositories are standalone programs (though not meant for any real use). The last repository is a working section of my personal website where the model was deployed. 
 
 # The Idea
