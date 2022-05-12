@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "System",
+    "sourceMap": true,
+    "rootDir": "./public/typescript",
+    "outDir": "./public/javascript"
+  },
+  "include": [
+    "./public/typescript"
+  ],
+  "exclude": [
+    "node_modules",
+    "src"
+  ]
+}

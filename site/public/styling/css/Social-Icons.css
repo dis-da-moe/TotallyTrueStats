@@ -1,0 +1,112 @@
+@media (min-width: 380px) {
+  .social-icons {
+    color: #313437;
+    background-color: #fff;
+    text-align: center;
+    padding: 70px 0;
+  }
+}
+
+@media (max-width:380px) {
+  .social-icons {
+    color: #313437;
+    background-color: #fff;
+    text-align: center;
+    padding: 70px 0;
+  }
+}
+
+#badge {
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  filter: invert(89%) sepia(0%) saturate(546%) hue-rotate(143deg) brightness(83%) contrast(87%);
+  align-content: center;
+}
+
+#back {
+  color: white;
+  left: 200px;
+  padding-top: 10px;
+  float: left;
+}
+
+.music-embed {
+  height: 120px;
+}
+
+.music-section {
+  margin-left: 20px;
+  border: double;
+  border-color: rgba(0,72,180,0.41);
+  height: auto;
+  overflow: hidden;
+  margin-right: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.music-section p {
+  color: white;
+  position: relative;
+  text-align: justify;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.bandcamp-embed {
+  float: left;
+}
+
+.bandcamp-embed-div {
+  height: 500px;
+}
+
+.music-section h1 {
+  color: white;
+  margin-left: 10px;
+}
+
+.bandcamp-embed {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bandcamp-embed {
+  position: relative;
+  left: 10px;
+}
+
+.text-link {
+  color: #8b8bf1;
+}
+
+.text-link:hover {
+  color: #8b8bf1;
+}
+
+.to-main:hover {
+  color: white;
+}
+
+.to-main {
+  color: white;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.big-paragraph {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+  margin-top: 30px;
+}
+

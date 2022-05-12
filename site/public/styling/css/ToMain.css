@@ -1,0 +1,19 @@
+.to-main:hover {
+  color: white;
+}
+
+.to-main {
+  color: white;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+@media (max-width: 380px) {
+  .to-main {
+    font-size: 20px;
+  }
+}
+

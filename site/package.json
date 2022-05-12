@@ -1,0 +1,21 @@
+{
+  "name": "dis_da_moe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-useragent": "^1.0.15"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/express-useragent": "^1.0.2",
+    "@types/node": "^17.0.18"
+  }
+}

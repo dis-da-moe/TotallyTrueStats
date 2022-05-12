@@ -1,0 +1,40 @@
+.main-paragraph {
+  color: white;
+  font-size: 20px;
+  margin: 15px;
+  text-align: left;
+}
+
+.social-icons a {
+  color: rgba(0,0,0,0);
+}
+
+.social-icons a {
+  color: rgba(0,0,0,0);
+}
+
+.social-icons a {
+  color: rgba(0,0,0,0);
+}
+
+.social-icons a:hover {
+  color: rgba(0,0,0,0);
+}
+
+.collapse strong {
+  font-size: 26px;
+}
+
+#loading-blocker {
+  height: 100%;
+  background-color: #212529;
+}
+
+#generate-parent {
+  height: 20%;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "sourceMap": true,
+    "rootDir": "./public/typescript",
+    "outDir": "./public/javascript-common"
+  },
+  "include": [
+    "./public/typescript"
+  ],
+  "exclude": [
+    "node_modules",
+    "src"
+  ]
+}

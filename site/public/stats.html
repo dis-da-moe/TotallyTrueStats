@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>dis_da_moe</title>
+    <link rel="stylesheet" href="styling/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styling/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="styling/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="styling/css/main-paragraph.css">
+    <link rel="stylesheet" href="styling/css/Projects-Horizontal.css">
+    <link rel="stylesheet" href="styling/css/Social-Icons.css">
+    <link rel="stylesheet" href="styling/css/styles.css">
+    <link rel="stylesheet" href="styling/css/ToMain.css">
+</head>
+
+<body>
+    <div id="help-blocker" style="display: none">
+        <div class="vstack mx-auto" style="background: rgba(0,0,0,0.92); border-radius: 10px;position: relative;top: 10%; width: 70%">
+            <p class="main-paragraph">- Use the Generate button to generate a new stat!</p>
+            <p class="main-paragraph">- Enter a word in Generate For: and use the X to clear it.</p>
+            <p class="main-paragraph">- The share button will copy a link to your clipboard of the current stat.</p>
+            <p class="main-paragraph">- Randomness slider affects how nonsensical the stat is.</p>
+            <button class="btn btn-outline-secondary" id="ok">Ok</button>
+        </div>
+    </div>
+    <h1 class="title-heading">Totally True Stats</h1>
+    <div class="row justify-content-xl-start" style="margin-left: 10px">
+        <button class="col-sm-auto btn btn-outline-info" id="help">Help</button>
+    </div>
+    <div id="generate-parent" style="display: none">
+        <div class="vstack" id="generate-center">
+            <div id="generate-for-parent" class="row justify-content-center">
+                <label class="col-auto stats-label">Generate For:</label><input id="generate-for" class="col-auto"><button id="clear" class="col-auto" style="position:relative;"><img src="img/close-icon.png"></button>
+            </div>
+            <div class="row justify-content-center container-fluid" id="generate-text">
+                <p class="col-auto">??</p>
+                <p class="col-auto">% </p>
+                <p class="col-auto">of </p>
+                <p class="col-auto">???</p>
+                <p class="col-auto">are </p>
+                <p class="col-auto"><span>???????</span><button type="button" id="cite"  class="btn btn-outline-dark"><img src="img/share.png"></button></p>
+            </div>
+            <div style="width: 100%; text-align: center">
+            </div>
+            <div class="row" id="randomness-parent">
+                <label class="col-auto stats-label" id="randomness-label">Randomness: </label>
+                <input class="col-auto slider" id="randomness-slider" type="range">
+            </div>
+            <button id="generate-button" class="btn btn-primary" type="button">
+                <span id="generate-spinner" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                <span id="button-text">Loading...</span>
+            </button>
+        </div>
+
+    </div>
+    <div id="loading-blocker" style="display: none">
+        <div id="loading">
+            <div class="vstack">
+                <div id="loading-parent">
+                    <p id="loading-text">Loading</p>
+                    <div class="spinner-grow text-secondary" id="1" role="status"></div>
+                    <div class="spinner-grow text-secondary" id="2" role="status"></div>
+                    <div class="spinner-grow text-secondary" id="3" role="status"></div>
+                </div>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/systemjs@6.11.0/dist/s.js"></script>
+    <script src="https://unpkg.com/systemjs@6.11.0/dist/extras/named-register.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
+    <script src="dependencies/jquery-3.6.0.min.js"></script>
+    <script src="dependencies/toastr.min.js"></script>
+    <link href="styling/css/toastr.min.css" rel="stylesheet"/>
+    <script src="dependencies/chance.min.js"></script>
+    <script>const isMobile="{isMobile}";const isChrome="{isChrome}";const getWords = "{getWords}"; const exports = {}</script>
+    <script type="module">System.import("./javascript/statsStarter.js");</script>
+</body>
+
+</html>
